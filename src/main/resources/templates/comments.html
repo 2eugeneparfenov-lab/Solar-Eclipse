@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+    <title>Player's comments</title>
+</head>
+<body>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div class="text11">
+        <h1 id="gameTitle">Solar Eclipse</h1>
+        <h2 style="color: rgb(191, 170, 255);
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 2px rgba(48, 42, 72, 0.7);
+                letter-spacing: 1px;
+            ">Players Comments</h2>
+    </div>
+</div>
+<div class="side-rectangle left-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px;">
+            <a href="/lightsoff/menu" style="text-decoration: none; color: inherit;">Go menu</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/setRating" style="text-decoration: none; color: inherit;">Rate this game</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/makeComm" style="text-decoration: none; color: inherit;">Leave comment</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; "><a href="/lightsoff/comments" style="text-decoration: none; color: inherit;">Player's comments</a></h2></div>
+</div>
+<div class="side-rectangle right-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -65px; margin-top: 133%">About author</h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -50px; margin-top: -2%">Log out</h2></div>
+</div>
+
+<table class="styled-table">
+    <thead>
+    <tr>
+        <th>Username</th>
+        <th>Comment</th>
+        <th>Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="comment : ${comments}">
+        <td class="td1" th:text="${comment.username}">Username</td>
+        <td class="td1" th:text="${comment.comments}">Comment</td>
+        <td class="td1" th:text="${#dates.format(comment.createdAt, 'dd.MM.yyyy')}">Date</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

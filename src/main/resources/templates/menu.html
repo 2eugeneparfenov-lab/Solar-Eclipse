@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Level Menu</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="text11">
+            <h1 id="gameTitle">Solar Eclipse</h1>
+            <h2 style="color: rgb(191, 170, 255);
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 2px rgba(48, 42, 72, 0.7);
+                letter-spacing: 1px;
+            ">Levels Menu</h2>
+        </div>
+    </div>
+<div class="menu-container" style="margin-top: 50px">
+    <div class="zoom-on-hover">
+        <div id="level1" class="level" onclick="goToLevel1()">1</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level2" class="level" onclick="goToLevel(2)">2</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level3" class="level" onclick="goToLevel(3)">3</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level4" class="level" onclick="goToLevel(4)">4</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level5" class="level" onclick="goToLevel(5)">5</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level6" class="level" onclick="goToLevel(6)">6</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level7" class="level" onclick="goToLevel(7)">7</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level8" class="level" onclick="goToLevel(8)">8</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level9" class="level" onclick="goToLevel(9)">9</div>
+    </div>
+    <div class="zoom-on-hover">
+        <div id="level10" class="level" onclick="goToLevel(10)">10</div>
+    </div>
+</div>
+    <div class="menu-container">
+        <div class="zoom-on-hover">
+            <div id="level11" class="level" onclick="goToLevel(11)">11</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level12" class="level" onclick="goToLevel(12)">12</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level13" class="level" onclick="goToLevel(13)">13</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level14" class="level" onclick="goToLevel(14)">14</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level15" class="level" onclick="goToLevel(15)">15</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level16" class="level" onclick="goToLevel(16)">16</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level17" class="level" onclick="goToLevel(17)">17</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level18" class="level" onclick="goToLevel(18)">18</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level19" class="level" onclick="goToLevel(19)">19</div>
+        </div>
+        <div class="zoom-on-hover">
+            <div id="level20" class="level" onclick="goToLevel(20)">20</div>
+        </div>
+    </div>
+<!--    <div class="menu-container">-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level21" class="level" onclick="goToLevel(21)">21</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level22" class="level" onclick="goToLevel(22)">22</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level23" class="level" onclick="goToLevel(23)">23</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level24" class="level" onclick="goToLevel(24)">24</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level25" class="level" onclick="goToLevel(25)">25</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level26" class="level" onclick="goToLevel(26)">26</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level27" class="level" onclick="goToLevel(27)">27</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level28" class="level" onclick="goToLevel(28)">28</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level29" class="level" onclick="goToLevel(29)">29</div>-->
+<!--        </div>-->
+<!--        <div class="zoom-on-hover">-->
+<!--            <div id="level30" class="level" onclick="goToLevel(30)">30</div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div style="text-align: center; margin-top: 50px">
+        <button class="button-74" onclick='window.location.href="/lightsoff/setRating"'>Rate this game</button>
+        <a>&nbsp; &nbsp; &nbsp;</a>
+        <button class="button-74" onclick='window.location.href="/lightsoff/makeComm"'>Leave comment</button>
+        <a>&nbsp; &nbsp; &nbsp;</a>
+        <button class="button-74" onclick='window.location.href="/lightsoff/comments"'>Show player's comments</button>
+    </div>
+
+    <script>
+    function goToLevel1(){
+        window.location.href='/lightsoff';
+    }
+
+    function goToLevel(n) {
+        window.location.href = `/lightsoff/level${n}`;
+    }
+
+    function isSolvedLevel1(){
+        fetch('/api/gameState')
+            .then(response => response.text())
+            .then(html => {
+                const doc = document.getElementById("level1");
+
+                if(html === "WIN"){
+                    doc.style.backgroundColor = "rgb(46,139,87)";
+                    doc.style.borderRadius = "20px";
+                    doc.style.color = "rgba(48, 42, 72, 1)";
+                    doc.style.borderColor = "rgb(48, 42, 72)";
+                }
+            });
+    }
+
+    function isSolvedLevel(levelN){
+        fetch(`/api/gameState/level${levelN}`)
+            .then(response => response.text())
+            .then(html => {
+                const doc = document.getElementById(`level${levelN}`);
+
+                if(html === "WIN"){
+                    doc.style.backgroundColor = "rgb(46,139,87)";
+                    doc.style.borderRadius = "20px";
+                    doc.style.color = "rgba(48, 42, 72, 1)";
+                    doc.style.borderColor = "rgb(48, 42, 72)";
+                }
+            });
+    }
+
+    isSolvedLevel1();
+    isSolvedLevel(2);
+    isSolvedLevel(3);
+    isSolvedLevel(4);
+    isSolvedLevel(5);
+    isSolvedLevel(6);
+    isSolvedLevel(7);
+    isSolvedLevel(8);
+    isSolvedLevel(9);
+    isSolvedLevel(10);
+    isSolvedLevel(11);
+    isSolvedLevel(12);
+    isSolvedLevel(13);
+    isSolvedLevel(14);
+    isSolvedLevel(15);
+    isSolvedLevel(16);
+    isSolvedLevel(17);
+    isSolvedLevel(18);
+    isSolvedLevel(19);
+    isSolvedLevel(20);
+    isSolvedLevel(21);
+    isSolvedLevel(22);
+    isSolvedLevel(23);
+    isSolvedLevel(24);
+    isSolvedLevel(25);
+    isSolvedLevel(26);
+    isSolvedLevel(27);
+    isSolvedLevel(28);
+    isSolvedLevel(29);
+    isSolvedLevel(30);
+
+</script>
+</body>
+</html>

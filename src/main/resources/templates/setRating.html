@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+    <title>Game rating</title>
+</head>
+<body>
+<div class="side-rectangle left-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px;">
+            <a href="/lightsoff/menu" style="text-decoration: none; color: inherit;">Go menu</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/setRating" style="text-decoration: none; color: inherit;">Rate this game</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/makeComm" style="text-decoration: none; color: inherit;">Leave comment</a>
+            </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; ">
+            <a href="/lightsoff/comments" style="text-decoration: none; color: inherit;">Player's comments</a>
+        </h2></div>
+</div>
+<div class="side-rectangle right-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -65px; margin-top: 133%">About author</h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -50px; margin-top: -2%">Log out</h2></div>
+</div>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div style="height: 99vh" class="text11">
+        <h1 id="gameTitle">Solar Eclipse</h1>
+        <h2 style="color: rgb(191, 170, 255);
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 2px rgba(48, 42, 72, 0.7);
+                letter-spacing: 1px;
+            ">Rate this game</h2>
+            <h2 style="color: rgb(191, 170, 255);
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 2px rgba(48, 42, 72, 0.7);
+                letter-spacing: 1px;
+            ">Average Rating: <span th:text="${avgRating}">0</span></h2>
+        <form th:action="@{/lightsoff/setRating}" th:object="${rating}" method="post"
+              style="display: flex; flex-direction: column; align-items: center;">
+            <h2 style="color: #bfaaff; font-family: 'Segoe UI', sans-serif; margin-top: 40px; margin-left: -150px; margin-bottom: 5px">
+                Username
+            </h2>
+            <input class="styled-input" type="text" th:field="*{player}" required>
+            <h2 style="margin-top: 90px; color: #bfaaff; font-family: 'Segoe UI', sans-serif; margin-left: -150px; margin-bottom: 5px">
+                Rating 1-5
+            </h2>
+            <input class="styled-input" th:field="*{rating}" type="number" min="1" max="5" placeholder="" required>
+            <button class="button-74" type="submit">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

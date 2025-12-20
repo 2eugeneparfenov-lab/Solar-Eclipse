@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+    <title>Leave your comment</title>
+</head>
+<body>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div class="text11" style="height: 99vh;">
+        <h1 id="gameTitle">Solar Eclipse</h1>
+        <h2 style="color: rgb(191, 170, 255);
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 2px rgba(48, 42, 72, 0.7);
+                letter-spacing: 1px;
+            ">Leave your comment about this game</h2>
+        <form action="/lightsoff/makeComm" method="post" style="display: flex; flex-direction: column; align-items: center;">
+            <h2 style="color: #bfaaff; font-family: 'Segoe UI', sans-serif; margin-top: 40px; margin-left: -150px; margin-bottom: 5px">Username</h2>
+            <input name="username" class="styled-input" type="text" required>
+
+            <h2 style="margin-top: 50px; color: #bfaaff;font-family: 'Segoe UI', sans-serif; margin-left: -100px; margin-bottom: 5px">Your comment</h2>
+            <textarea name="comments" class="styled-input" style="width: 75%; height: 120px;" required></textarea>
+
+            <button class="button-74" type="submit">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+<div class="side-rectangle left-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px;">
+            <a href="/lightsoff/menu" style="text-decoration: none; color: inherit;">Go menu</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/setRating" style="text-decoration: none; color: inherit;">Rate this game</a>
+        </h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">Leave comment</h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; "><a href="/lightsoff/comments" style="text-decoration: none; color: inherit;">Player's comments</a></h2></div>
+</div>
+<div class="side-rectangle right-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -65px; margin-top: 133%">About author</h2></div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -50px; margin-top: -2%">Log out</h2></div>
+</div>
+</body>
+</html>

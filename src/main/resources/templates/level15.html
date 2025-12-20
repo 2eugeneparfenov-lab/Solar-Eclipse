@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png"/>
+    <title>Solar Eclipse</title>
+</head>
+<body>
+<div class="side-rectangle left-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px;">
+            <a href="/lightsoff/menu" style="text-decoration: none; color: inherit;">Go menu</a>
+        </h2>
+    </div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/setRating" style="text-decoration: none; color: inherit;">Rate this game</a>
+        </h2>
+    </div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px; margin-top: 1%">
+            <a href="/lightsoff/makeComm" style="text-decoration: none; color: inherit;">Leave comment</a>
+        </h2>
+    </div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-right: -20px;">
+            <a href="/lightsoff/comments" style="text-decoration: none; color: inherit;">Player's comments</a>
+        </h2>
+    </div>
+</div>
+
+<div class="side-rectangle right-rectangle">
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -65px; margin-top: 133%;">
+            <a href="/lightsoff/author" style="text-decoration: none; color: inherit;">About author</a>
+        </h2>
+    </div>
+    <div class="zoom-on-hover">
+        <h2 style="color: #bea9fd; padding: 10px; text-align: center; margin-left: -50px; margin-top: -2%">
+            Log out
+        </h2>
+    </div>
+</div>
+
+<div id="winMessage">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="text11">
+            <h1 id="gameTitle">Solar Eclipse</h1>
+            <h3 style="margin-bottom: 30px;">Level 15</h3>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: flex-start;">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; margin-left: -130px;
+                color: rgba(48,42,72,0.9); font-weight: 700; font-size: 18px; margin-top: 20px; width: 300px; text-align: justify;">
+        <div style="margin-left: -50px">
+            <h2 style="margin-bottom: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game Rules:</h2>
+            <ul style="text-align: justify; padding-left: -100px;">
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;Click a cell to toggle it and its adjacent neighbors.</a>
+                <a>Turn off all the ☀️ cells.</a><br>
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;Try to solve the puzzle in the fewest moves and shortest time!</a><br>
+                <a>&nbsp;&nbsp;&nbsp;&nbsp;Plan your moves carefully to switch off all the lights as efficiently as possible.</a>
+            </ul>
+        </div>
+    </div>
+
+    <div id="gameField" th:utext="${htmlField}" style="margin-left: 100px;"></div>
+
+    <div style="display: flex; flex-direction: column; align-items: center; margin-left: 80px;
+                color: rgba(48,42,72,0.9); font-weight: 700; margin-top: 20px;">
+        <h2>Moves:</h2>
+        <h2 id="turns" style="font-size: 24px; margin-top: -3px;">0</h2>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: center; margin-left: 40px;
+                color: rgba(48,42,72,0.9); font-weight: 700; margin-top: 20px;">
+        <h2>Time:</h2>
+        <h2 id="timer" style="margin-top: -3px; width: 80px;">0.000s</h2>
+    </div>
+</div>
+
+<div style="text-align: center;">
+    <div>
+        <button class="button-74" id="newGame" onclick="startNewGame()">Retry this board</button>
+    </div>
+</div>
+
+<br/>
+
+<div style="text-align: center;">
+    <button class="button-74" onclick="window.location.href='/lightsoff/level14'">Previous Level</button>
+    <button class="button-74" onclick="window.location.href='/lightsoff/level16'">Next Level</button>
+</div>
+
+<script>
+    let turnCount = 0;
+    let timerInterval;
+    let timerStarted = false;
+    let startedTime;
+    let gameWon = false;
+
+    function startTimer() {
+        if (timerStarted) return;
+        timerStarted = true;
+        startedTime = Date.now();
+        timerInterval = setInterval(() => {
+            const elapsed = Date.now() - startedTime;
+            const seconds = (elapsed / 1000).toFixed(3);
+            document.getElementById("timer").textContent = `${seconds}s`;
+        });
+    }
+
+    function startNewGame() {
+        fetch('/lightsoff/level15/new')
+            .then(() => fetch('/lightsoff/level15/state'))
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("gameField").innerHTML = html;
+                document.getElementById("gameTitle").textContent = "Solar Eclipse";
+                turnCount = 0;
+                document.getElementById("turns").textContent = "0";
+                clearInterval(timerInterval);
+                timerStarted = false;
+                document.getElementById("timer").textContent = "0.000s";
+                gameWon = false;
+            });
+    }
+
+    document.addEventListener("click", function(e) {
+        if (gameWon) return;
+        if (e.target.tagName === "A" && e.target.dataset.row) {
+            e.preventDefault();
+            const row = e.target.dataset.row;
+            const column = e.target.dataset.column;
+
+            fetch(`/lightsoff/level15?row=${row}&column=${column}`)
+                .then(() => fetch('/lightsoff/level15/state'))
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById("gameField").innerHTML = html;
+                    turnCount++;
+                    document.getElementById("turns").textContent = turnCount;
+                    startTimer();
+                    return fetch('/api/gameState/level15');
+                })
+                .then(response => response.text())
+                .then(status => {
+                    if (status === "WIN") {
+                        document.getElementById("gameTitle").textContent = "Game Solved";
+                        clearInterval(timerInterval);
+                        gameWon = true;
+                    } else {
+                        document.getElementById("gameTitle").textContent = "Solar Eclipse";
+                    }
+                });
+        }
+    });
+</script>
+</body>
+</html>
