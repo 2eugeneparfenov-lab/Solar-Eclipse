@@ -1,7 +1,7 @@
-**Playtesting and Game Review - UNO (5 hráčov)**
+#**Playtesting and Game Review - UNO (5 hráčov)**
 
 
-**Vstup**<br>
+##**Vstup**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Pre naše zadanie sme si vybrali klasickú kartovú hru UNO. Vybrali sme ju preto, že je jednoduchá, známa a zároveň má mechaniky, ktoré sa dajú dobre upravovať a testovať. Hra funguje v rôznych počtoch hráčov a je vhodná na pozorovanie dynamiky skupiny, najmä pri 5 hráčoch, kde vzniká viac interakcií a nečakaných zvratov.
 
 
