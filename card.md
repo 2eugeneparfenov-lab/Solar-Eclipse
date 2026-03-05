@@ -72,19 +72,22 @@ Pozorovania z hry:
 &nbsp;&nbsp;&nbsp;&nbsp;Urobili sme tri iterácie, pričom v každej sme niektoré originálne pravidlá úplne zrušili a pridali nové mechaniky. Testovali sme ich v samostatných partiách a sledovali, ako ovplyvňujú dynamiku a zábavu hry.
 
 ## **Iterácia 1**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Zrušili sme povinnosť kričať „UNO!" (žiadne trestné karty za zabudnutie). Zaviedli sme limit pre trestné karty: maximálne +4 karty za jeden ťah - ak by sa nazbieralo viac (+2, +4, +2 atď.), hráč si potiahne iba 4 a zvyšok sa ignoruje.  
-**Výsledok:** Hra bola menej frustrujúca, nikto už nesedel s veľkým množstvom kariet, ale trochu nám chýbalo napätie zo samotného kriku „UNO".
+&nbsp;&nbsp;&nbsp;&nbsp;Zrušili sme pravidlo, že hráč musí zahrať kartu, ak ju má. Namiesto toho si hráč môže vybrať – buď zahrať kartu, alebo si potiahnuť jednu z balíčka. Zároveň sme zaviedli pravidlo „bez reťazenia +2 kariet“. Ak hráč dostane kartu +2, musí si potiahnuť dve karty a ťah končí. 
+**Výsledok:** Hra sa stala menej chaotická a viac strategická. Hráči si mohli šetriť silné karty na vhodnejší moment. Zrušenie reťazenia +2 zabránilo situáciám, keď niekto zrazu potiahol veľké množstvo kariet.
+**Zmena pre SWOT:** Posilnili sa silné stránky hry - viac stratégie a menej frustrácie hráčov.
 
 ## **Iterácia 2**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Úplne sme odstránili Wild Draw 4 karty z balíčka, ostali len obyčajné Wild. Pridali sme novú mechaniku: keď hráč zahodí Wild kartu, môže si vymeniť jednu svoju kartu s náhodnou kartou od vybraného súpera.  
-**Výsledok:** Táto zmena sa nám páčila najviac. Pridala strategický prvok, znížila pocit bezmocnosti a swap kariet často vytváral smiešne situácie. Hra bola oveľa vyváženejšia.
+&nbsp;&nbsp;&nbsp;&nbsp;Do hry sme pridali nové špeciálne pravidlo „Výmena rúk“. Keď hráč použije špeciálnu kartu na výmenu rúk, môže si vybrať jedného súpera a vymeniť si s ním všetky karty v ruke (аk má 3 alebo viac kariet).
+**Výsledok:** Toto pravidlo prinieslo do hry veľa prekvapení a zábavných momentov. Hráč, ktorý mal veľa kariet, mohol zrazu získať výhodu, ak si vymenil karty s hráčom, ktorý mal iba niekoľko kariet.
+**Zmena pre SWOT:** Zvýšila sa interakcia medzi hráčmi a vznikla nová príležitosť pre strategické rozhodovanie.
 
 ## **Iterácia 3**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Zrušili sme Reverse karty. Pridali sme pravidlo: ak hráč zahodí kartu s rovnakým číslom ako je aktuálna vrchná karta, môže hrať ešte raz (extra ťah).  
 **Výsledok:** Hra išla citeľne rýchlejšie, menej sa blokovalo smerom a viac sa dali využiť série kariet. Celkovo bola táto verzia najdynamickejšia.
+**Zmena pre SWOT:** Hra sa stala dynamickejšou, čo posilnilo jej atraktivitu, ale mierne zvýšilo náročnosť sledovania pravidiel.
 
 ## **Herný zážitok po iteráciách**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Po aplikovaní iterácií bola hra citeľne plynulejšia a hráči boli aktívni aj po trestoch, čo znížilo frustráciu. Challenge na +4 pridalo napätie a zároveň odstránilo nejasnosti. Kombo ťah zvýšil tempo a priniesol viac "highlight" momentov, ktoré skupina vnímala ako zábavné a férovejšie než čisté reťazenie trestných kariet.
+&nbsp;&nbsp;&nbsp;&nbsp;Po úprave pravidiel bola hra UNO dynamickejšia a zábavnejšia. Hráči mali viac možností rozhodovania a mohli lepšie plánovať svoje ťahy namiesto toho, aby boli nútení vždy zahrať kartu. Pravidlo výmeny rúk prinieslo veľa nečakaných a vtipných situácií, pretože hráč mohol zmeniť priebeh hry výmenou kariet so súperom. Pravidlo extra ťahu zase zrýchlilo tempo hry a umožnilo hráčom vytvárať malé série kariet.
 
 
 ## **Krátky záver**<br>
