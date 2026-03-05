@@ -47,11 +47,11 @@ Pozorovania z hry:
 &nbsp;&nbsp;&nbsp;&nbsp;Celkovo bola hra zábavná a energická, ale bolo cítiť, že náhoda má veľmi silný vplyv na výsledok.
 
 
-## **Pozitíva základných pravidiel**<br>
+### **Pozitíva základných pravidiel**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;UNO má veľmi jednoduché a rýchlo pochopiteľné pravidlá, takže noví hráči sa dokážu zapojiť bez problémov. Každý ťah je krátky, čo zabezpečuje plynulé tempo hry a udržiava záujem všetkých hráčov. Hra podporuje silnú sociálnu interakciu - hráči sa navzájom blokujú, menia farby a reagujú na situáciu na stole. Špeciálne karty prinášajú veľa zvratov, takže nikdy nie je isté, kto bude víťaz. Navyše, každá partia je iná, takže UNO má vysokú znovuhrateľnosť a hráči sa k nej radi vracajú.
 
 
-## **Negatíva základných pravidiel**<br>
+### **Negatíva základných pravidiel**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Hlavným problémom UNO je veľký vplyv náhody - výsledok hry často závisí od toho, aké karty hráči potiahnu. Trestné karty, ako +2 alebo +4, môžu vytvoriť tzv. „snowball" efekt, keď jeden hráč sa postupne dostane výrazne dozadu a má menšiu šancu sa vrátiť do hry. Hráč, ktorý sa dostane do nevýhodnej pozície, sa môže cítiť vyradený a stratiť motiváciu. Pravidlo UNO je navyše viac o pozornosti a reflexe než o stratégii, čo občas ruší plynulosť hry.
 
 
