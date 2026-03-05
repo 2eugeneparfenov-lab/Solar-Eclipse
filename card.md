@@ -9,7 +9,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Cieľ hry je zbaviť sa všetkých kariet v ruke. Hráč, ktorý ako prvý odohrá poslednú kartu, vyhráva partiu.
 
 
-## **Príprava hry a priebeh**<br>
+### **Príprava hry a priebeh**<br>
 
 - Balíček sa dôkladne zamieša.
 - Každému hráčovi sa rozdá 7 kariet.
@@ -20,7 +20,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Hráči sa striedajú v smere hodinových ručičiek. V každom ťahu sa hráč snaží zahrať jednu kartu z ruky tak, aby sa zhodovala s vrchnou kartou na odhadzovacej kôpke - buď farbou, číslom alebo typom (napr. Skip na Skip). Okrem toho môže kedykoľvek zahrať Wild kartu, ktorou určí novú farbu pokračovania hry. Ak hráč nemá žiadnu vhodnú kartu, musí si potiahnuť jednu z dobieracieho balíka. V našom testovaní sme používali pravidlo, že ak je potiahnutá karta hrateľná, môže ju okamžite zahrať; ak nie je, ťah končí a pokračuje ďalší hráč.
 
 
-## **Špeciálne karty**<br>
+### **Špeciálne karty**<br>
 
 - **Skip** - nasledujúci hráč vynechá ťah.
 - **Reverse** - zmení smer hry.
@@ -29,7 +29,7 @@
 - **Wild +4** - hráč zvolí farbu, ďalší hráč si potiahne 4 karty a prichádza o ťah.
 
 
-## **Pravidlo UNO**<br>
+### **Pravidlo UNO**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Ak hráč zostane na jednej karte, musí povedať „UNO". Ak to nepovie a niekto si to všimne pred ďalším ťahom, potiahne si 2 trestné karty. Hra končí okamžite, keď niekto odohrá poslednú kartu.
 
 
@@ -64,7 +64,7 @@ Pozorovania z hry:
 | **External** | Vysoká známosť hry (väčšina hráčov už pozná pravidlá, rýchly start)<br><br>Dostupnosť (ľahko sa testuje) Vhodná pre rodiny a párty (prirodzene podporuje cieľ "social fun")<br><br>Možnosť domácich variantov (jednoduché iterovanie pravidiel) | Riziko hádok v skupine (zhoršenie zážitku)<br><br>Rôzna skúsenosť hráčov (skúsení môžu dominovať v "meta" taktikách)<br><br>Konkurencia podobných hier (UNO môže pôsobiť "okukané")<br><br>Vplyv nálady skupiny (hra sa môže javiť menej zábavná) |
 
 
-## **Záver:**<br>
+### **Záver:**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Silné stránky UNO podporujú jeho cieľ - rýchlu, prístupnú a spoločenskú hru, ktorá je zábavná. Slabé stránky a hrozby sa týkajú hlavne férovosti a frustrácie hráčov, čo ukazuje, že pri úpravách pravidiel je vhodné sústrediť sa na vyváženie trestných kariet a jasnejšie definovanie sporných pravidiel, aby sa udržala motivácia všetkých hráčov.
 
 
