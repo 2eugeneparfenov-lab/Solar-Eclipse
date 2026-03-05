@@ -58,10 +58,10 @@ Pozorovania z hry:
 ## **SWOT Analysis**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;UNO je navrhnuté tak, aby bolo rýchlou, prístupnou a spoločenskou hrou, vhodnou pre rôzne vekové skupiny a počty hráčov. Hra je jednoduchá, dynamická a zábavná, čo umožňuje hráčom rýchlo sa zapojiť a užívať si interakciu so spoluhráčmi.
 
-|     | ### **Helpful** | ### **Harmful** |
+|     | **Helpful** | **Harmful** |
 | --- | --- | --- |
-| ### **Internal** | Jednoduché jadro pravidiel (rýchle pochopenie)<br><br>Krátke ťahy (dobré tempo pri 5 hráčoch)<br><br>Špeciálne karty (zvraty a emócie)<br><br>Vysoká interakcia (hráči majú pocit, že ovplyvňujú ostatných)<br><br>Nízke nároky na prípravu (hra sa ľahko spustí) | Vysoká miera náhody (výsledok môže pôsobiť nespravodlivo)<br><br>Trestné karty môžu vytvárať "snowball" (hráč sa ťažko vracia do hry)<br><br>Nejednoznačnosť pravidiel (spory, spomalenie hry) |
-| ### **External** | Vysoká známosť hry (väčšina hráčov už pozná pravidlá, rýchly start)<br><br>Dostupnosť (ľahko sa testuje) Vhodná pre rodiny a párty (prirodzene podporuje cieľ "social fun")<br><br>Možnosť domácich variantov (jednoduché iterovanie pravidiel) | Riziko hádok v skupine (zhoršenie zážitku)<br><br>Rôzna skúsenosť hráčov (skúsení môžu dominovať v "meta" taktikách)<br><br>Konkurencia podobných hier (UNO môže pôsobiť "okukané")<br><br>Vplyv nálady skupiny (hra sa môže javiť menej zábavná) |
+| **Internal** | Jednoduché jadro pravidiel (rýchle pochopenie)<br><br>Krátke ťahy (dobré tempo pri 5 hráčoch)<br><br>Špeciálne karty (zvraty a emócie)<br><br>Vysoká interakcia (hráči majú pocit, že ovplyvňujú ostatných)<br><br>Nízke nároky na prípravu (hra sa ľahko spustí) | Vysoká miera náhody (výsledok môže pôsobiť nespravodlivo)<br><br>Trestné karty môžu vytvárať "snowball" (hráč sa ťažko vracia do hry)<br><br>Nejednoznačnosť pravidiel (spory, spomalenie hry) |
+| **External** | Vysoká známosť hry (väčšina hráčov už pozná pravidlá, rýchly start)<br><br>Dostupnosť (ľahko sa testuje) Vhodná pre rodiny a párty (prirodzene podporuje cieľ "social fun")<br><br>Možnosť domácich variantov (jednoduché iterovanie pravidiel) | Riziko hádok v skupine (zhoršenie zážitku)<br><br>Rôzna skúsenosť hráčov (skúsení môžu dominovať v "meta" taktikách)<br><br>Konkurencia podobných hier (UNO môže pôsobiť "okukané")<br><br>Vplyv nálady skupiny (hra sa môže javiť menej zábavná) |
 
 
 ## **Záver:**<br>
