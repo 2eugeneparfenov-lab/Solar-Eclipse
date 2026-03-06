@@ -82,7 +82,7 @@ Pozorovania z hry:
 **Zmena pre SWOT:** Zvýšila sa interakcia medzi hráčmi a vznikla nová príležitosť pre strategické rozhodovanie.
 
 ### **Iterácia 3**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Pridali sme pravidlo, ak hráč zahodí kartu s rovnakým číslom ako je aktuálna vrchná karta, môže hrať ešte raz (extra ťah).  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Pridali sme pravidlo, ak hráč zahodí kartu s rovnakým číslom a farbou ako je aktuálna vrchná karta, môže hrať ešte raz (extra ťah).  <br>
 **Výsledok:** Hra išla citeľne rýchlejšie, menej sa blokovalo smerom a viac sa dali využiť série kariet. Celkovo bola táto verzia najdynamickejšia.<br>
 **Zmena pre SWOT:** Hra sa stala dynamickejšou, čo posilnilo jej atraktivitu, ale mierne zvýšilo náročnosť sledovania pravidiel.
 
