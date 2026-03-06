@@ -92,3 +92,19 @@ Pozorovania z hry:
 
 ## **Krátky záver**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Na základe playtestingu môžeme povedať, že UNO je jednoduchá a zábavná kartová hra, ktorá funguje dobre najmä vo väčšej skupine hráčov. Hra má rýchle tempo a veľa interakcií medzi hráčmi, čo vytvára dynamickú atmosféru. Počas testovania sme však zistili, že niektoré pravidlá, hlavne trestné karty, môžu spôsobovať frustráciu alebo pocit neférovosti. Iterácie pravidiel ukázali, že aj malé zmeny môžu zlepšiť herný zážitok. Niektoré úpravy znížili náhodnosť a pridali viac stratégie. Celkovo má UNO veľmi dobrý základ a zároveň ponúka priestor na experimentovanie s pravidlami.
+
+
+
+
+
+
+
+
+# **Súťaž o stáž v štúdiu**
+## **Opis reklamy:**
+&nbsp;&nbsp;&nbsp;&nbsp;Reklama bude vo forme plagátu, na ktorom bude mozog sediaci za počítačom a okolo neho budú kódy a karty z hry UNO ako odkaz na naše zadanie. Na plagáte bude text: „Staň sa súčasťou Starý mozog! Ukáž svoj game prototype (Unity/Godot) a vyhraj 3-mesačnú stáž + mentorstvo!“ Záujemcovia budú môcť poslať link na svoj projekt napríklad na GitHub alebo itch.io. Plagát bude v komiksovom štýle a budú na ňom aj malé ikony nástrojov ako Unity alebo Blender. Víťaz súťaže bude oznámený počas live streamu.
+## **Business plán:**
+**Ciele:** Nájsť talentovaných študentov na stáž a zároveň ukázať štúdio Starý mozog ako zaujímavé miesto na prácu.
+**Cieľová skupina:** Študenti informatiky (hlavne 2.–3. ročník), ktorí sa zaujímajú o vývoj hier a majú skúsenosti s nástrojmi ako Unity alebo Godot.
+**Rozpočet:** 0 € na reklamu – propagácia bude cez online komunity. Stáž bude platená podľa bežného štandardu.
+**Distribúcia:** Univerzitné fóra, LinkedIn, Reddit (napr. r/gamedev_sk) a zdieľanie cez študentské skupiny.
