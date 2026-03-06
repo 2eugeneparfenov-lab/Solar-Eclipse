@@ -104,7 +104,7 @@ Pozorovania z hry:
 ## **Opis reklamy:**
 &nbsp;&nbsp;&nbsp;&nbsp;Reklama bude vo forme plagátu, na ktorom bude mozog sediaci za počítačom a okolo neho budú kódy a karty z hry UNO ako odkaz na naše zadanie. Na plagáte bude text: „Staň sa súčasťou Starý mozog! Ukáž svoj game prototype (Unity/Godot) a vyhraj 3-mesačnú stáž + mentorstvo!“ Záujemcovia budú môcť poslať link na svoj projekt napríklad na GitHub alebo itch.io. Plagát bude v komiksovom štýle a budú na ňom aj malé ikony nástrojov ako Unity alebo Blender. Víťaz súťaže bude oznámený počas live streamu.
 ## **Business plán:**
-**Ciele:** Nájsť talentovaných študentov na stáž a zároveň ukázať štúdio Starý mozog ako zaujímavé miesto na prácu.
-**Cieľová skupina:** Študenti informatiky (hlavne 2.–3. ročník), ktorí sa zaujímajú o vývoj hier a majú skúsenosti s nástrojmi ako Unity alebo Godot.
-**Rozpočet:** 0 € na reklamu – propagácia bude cez online komunity. Stáž bude platená podľa bežného štandardu.
-**Distribúcia:** Univerzitné fóra, LinkedIn, Reddit (napr. r/gamedev_sk) a zdieľanie cez študentské skupiny.
+ - **Ciele:** Nájsť talentovaných študentov na stáž a zároveň ukázať štúdio Starý mozog ako zaujímavé miesto na prácu.
+ - **Cieľová skupina:** Študenti informatiky (hlavne 2.–3. ročník), ktorí sa zaujímajú o vývoj hier a majú skúsenosti s nástrojmi ako Unity alebo Godot.
+ - **Rozpočet:** 0 € na reklamu – propagácia bude cez online komunity. Stáž bude platená podľa bežného štandardu.
+ - **Distribúcia:** Univerzitné fóra, LinkedIn, Reddit (napr. r/gamedev_sk) a zdieľanie cez študentské skupiny.
