@@ -5,6 +5,7 @@
 
 ## Žáner a vydavateľ
 &nbsp;&nbsp;&nbsp;&nbsp;Žáner tejto hry je ekonomická stratégia a city-builder s dôrazom na hlbokú a realistickú simuláciu. Je dostupná na PC (Windows a Linux) a patrí medzi indie projekty, hoci zároveň má podporu vydavateľa, čo jej pomohlo získať širšie uznanie.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Vývojárom tejto hry je slovenské štúdio **3Division**, ktoré predtým pracovalo na menej známych projektoch, ale práve tento projekt sa pre neho stal skutočne úspešným a predalo sa ho približne 750-tisíc elektronických kópií (treba poznamenať, že samotní vývojári oficiálne údaje o predaji nezverejnili). Zároveň na základe externých analytických služieb, ako sú Gamalytic a Games-Stats, možno usúdiť, že počet vlastníkov hry na Steame sa v rokoch 2024–2025 odhaduje približne na 500 000 až viac ako 1 000 000 kópií.  
 &nbsp;&nbsp;&nbsp;&nbsp;Vydavateľom je spoločnosť **Hooded Horse**, ktorá sa špecializuje na komplexné a premyslené strategické hry. V jej portfóliu sa nachádzajú také známe projekty ako *Manor Lords* a *Terra Invicta*, čo ešte raz podčiarkuje, že hra je zameraná predovšetkým na skúsených hráčov, ktorých zaujímajú hlboké mechaniky a komplexný prístup k hrateľnosti.
 
