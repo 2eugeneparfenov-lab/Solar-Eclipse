@@ -19,8 +19,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Medzi hlavné charakteristiky patrí aj tematika socialistického štátu, ktorá je v súčasných hrách takmer neprezentovaná. To vytvára jedinečnú atmosféru a odlišuje hru od typických „kapitalistických“ simulácií mesta. Dôležitá je aj mechanika hry v takzvanom „realistickom režime“, kde sú odstránené takmer všetky pomocné mechaniky, čo robí svet tejto hry ešte zložitejším a realistickejším.
 ## Rozprávanie príbehu
-&nbsp;&nbsp;&nbsp;&nbsp;V hre prakticky chýba tradičný dej, namiesto toho využíva prístup *emergent storytelling*, príbeh vzniká v priebehu hry. Hráč sám vytvára príbeh prostredníctvom svojich rozhodnutí: ekonomické krízy, nedostatok zdrojov, dopravné kolapsy alebo, naopak, prosperita štátu, takže rozprávačom je samotný hráč a typ rozprávania príbehu je *player-led*.  
-&nbsp;&nbsp;&nbsp;&nbsp;Takýto prístup k vývoju hry umožnil vyhnúť sa vnucovaniu predpísaného príbehu a realizoval systém, v ktorom sa tento príbeh môže vyvinúť prirodzene.
+&nbsp;&nbsp;&nbsp;&nbsp;V hre prakticky chýba tradičný dej, namiesto toho využíva prístup *emergent storytelling*, príbeh vzniká v priebehu hry. Hráč sám vytvára príbeh prostredníctvom svojich rozhodnutí: ekonomické krízy, nedostatok zdrojov, dopravné kolapsy alebo, naopak, prosperita štátu, takže rozprávačom je samotný hráč a typ rozprávania príbehu je *player-led*. Takýto prístup k vývoju hry umožnil vyhnúť sa vnucovaniu predpísaného príbehu a realizoval systém, v ktorom sa tento príbeh môže vyvinúť prirodzene.
 
 ## Hodnotenie
 &nbsp;&nbsp;&nbsp;&nbsp;Hra sa vyznačuje vysokou originalitou a hĺbkou, čo ju robí jedinečnou na trhu. Zároveň má vysokú vstupnú bariéru a pre začiatočníkov môže byť náročná. Hlavnou charakteristikou tejto hry a zároveň jej výhodou je realistickosť a voľnosť konania. Medzi nevýhody patrí náročná prístupnosť a nutnosť venovať dosť veľa času osvojeniu si hlavných prvkov ovládania a funkcionality hry.
