@@ -16,6 +16,7 @@
 
 ## Jedinečné vlastnosti (USP)
 &nbsp;&nbsp;&nbsp;&nbsp;Na rozdiel od väčšiny city-builderov tu neexistujú žiadne „zjednodušenia“: zdroje sa neobjavujú automaticky, ale je potrebné ich ťažiť, spracovávať a dopravovať. Logistika je kľúčová, nesprávne plánovanie dopravy môže zastaviť celú ekonomiku, čo robí hru maximálne realistickou a nekompromisnou.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Medzi hlavné charakteristiky patrí aj tematika socialistického štátu, ktorá je v súčasných hrách takmer neprezentovaná. To vytvára jedinečnú atmosféru a odlišuje hru od typických „kapitalistických“ simulácií mesta. Dôležitá je aj mechanika hry v takzvanom „realistickom režime“, kde sú odstránené takmer všetky pomocné mechaniky, čo robí svet tejto hry ešte zložitejším a realistickejším.
 ## Rozprávanie príbehu
 &nbsp;&nbsp;&nbsp;&nbsp;V hre prakticky chýba tradičný dej, namiesto toho využíva prístup *emergent storytelling*, príbeh vzniká v priebehu hry. Hráč sám vytvára príbeh prostredníctvom svojich rozhodnutí: ekonomické krízy, nedostatok zdrojov, dopravné kolapsy alebo, naopak, prosperita štátu, takže rozprávačom je samotný hráč a typ rozprávania príbehu je *player-led*.  
